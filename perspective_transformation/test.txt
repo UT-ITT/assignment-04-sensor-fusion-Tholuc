@@ -1,0 +1,1 @@
+python image_extractor.py sample_image.jpg result.jpg --width 1000 --height 700
