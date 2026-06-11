@@ -5,7 +5,7 @@ import pyglet
 import sys
 import random
 
-# Setup Video ID from command line arguments (defaults to 0 for default webcam)
+# Setup Video ID from command line arguments 
 video_id = 0
 if len(sys.argv) > 1:
     video_id = int(sys.argv[1])
@@ -13,7 +13,7 @@ if len(sys.argv) > 1:
 # Initialize video capture
 cap = cv2.VideoCapture(video_id)
 
-#  NATIVE RESOLUTION EXTRACTION
+# Native Resolution
 WINDOW_WIDTH = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 WINDOW_HEIGHT = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
@@ -48,12 +48,12 @@ particles = []
 M_last = None
 MAX_BUBBLES = 8
 current_texture = None
-game_won = False         #  Tracks if the player has won the game
+game_won = False        
 
 # --- TUNING PARAMETERS ---
 OBJECT_THRESHOLD = 90
 BORDER_MASK = 45 
-WIN_SCORE = 500          #  Target goal score required to win!
+WIN_SCORE = 500          #  Target goal score required to win
 
 def cv2glet(img, fmt):
     '''Converts an OpenCV image matrix directly to raw bytes for Pyglet rendering'''
