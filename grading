@@ -1,0 +1,39 @@
+# Tholuc (20/20P)
+
+## 1. Perspective Transformation (5/5P)
+* The image is successfully loaded and displayed 
+    * yep (1P)
+* Selecting the corner points works and there is visual feedback for the user 
+    * yep (1P) 
+* Perspective transformation to the target resolution works 
+    * yep (2P)
+* Command line parameters and shortcuts work 
+    * yep (1P) 
+
+## 2. AR Game (10/10P)
+* The region of interest is detected, extracted, transformed, and displayed 
+    * yep (2P)
+* Objects (such as fingers) in the region of interest are tracked reliably and interaction with game objects work 
+    * yep (4P)
+* Game mechanics work 
+    * yep (2P)
+* Performance and latency is ok 
+    * yep (1P)
+* The program does not crash 
+    * yep (1P)
+
+## 3. Sensor Fusion (5/5P)
+* The moving marker is tracked, and its position is displayed in the pyglet window 
+    * yep (1P)
+* Accelerometer data is received from DIPPID and integrated over time 
+    * yep (1P)
+* The complementary filter blends camera and accelerometer data and the prediction is displayed in the pyglet window 
+    * yep (1P)
+* The filter weight alpha can be adjusted at runtime, and the prediction can be reset using DIPPID 
+    * yep (1P)
+* Write a short paragraph reflecting on the implementation and how different weights affect the prediction 
+    * yep (1P)
+
+# General Comments
+* english is totally fine, but german also, do whatever makes it easier for you! :)
+* but pls write all READMEs in the big README
